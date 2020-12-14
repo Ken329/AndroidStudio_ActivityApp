@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "999438455625",
+    "project_id": "group-exercise-db680",
+    "storage_bucket": "group-exercise-db680.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999438455625:android:3231483d3e25cc4aa78098",
+        "android_client_info": {
+          "package_name": "com.example.groupexerciseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999438455625-oalpe4jh4pthvvplhnbju6u98u2nehu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4VO2URCILX3y4UG6Gx2cTk2UY6aqNn6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999438455625-oalpe4jh4pthvvplhnbju6u98u2nehu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
