@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GroupExerciseApp">
+        <activity android:name=".participantPage"></activity>
+        <activity android:name=".activityPage" />
+        <activity android:name=".SignInPage" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
