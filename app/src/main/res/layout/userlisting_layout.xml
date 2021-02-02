@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:orientation="horizontal"
         android:background="@drawable/user_listing"
         android:layout_margin="20dp">
@@ -16,8 +16,8 @@
             android:layout_height="wrap_content"
             android:text="ID"
             android:textColor="@color/white"
-            android:textSize="25dp"
-            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"></TextView>
         <TextView
             android:id="@+id/participantName"
@@ -25,8 +25,8 @@
             android:layout_height="wrap_content"
             android:text="Name"
             android:textColor="@color/white"
-            android:textSize="25dp"
-            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="30dp"></TextView>
     </LinearLayout>
 

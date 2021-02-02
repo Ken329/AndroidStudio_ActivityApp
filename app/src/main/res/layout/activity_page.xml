@@ -10,7 +10,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         android:background="@drawable/title_bar"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,28 +22,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:text="Activity"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="18dp"
             android:textStyle="bold"></TextView>
 
         <TextView
             android:id="@+id/textViewDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:text="Date"
             android:textColor="@color/white"
-            android:textSize="25dp"
+            android:textSize="18dp"
             android:textStyle="bold"></TextView>
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:weightSum="2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,12 +63,12 @@
                 android:gravity="center"
                 android:text="Stream"
                 android:textColor="@color/black"
-                android:textSize="20dp"></TextView>
+                android:textSize="18dp"></TextView>
 
             <LinearLayout
                 android:id="@+id/linearStream"
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
+                android:layout_height="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/title_bar"
                 android:orientation="horizontal"></LinearLayout>
@@ -88,12 +88,12 @@
                 android:gravity="center"
                 android:text="Participants"
                 android:textColor="@color/black"
-                android:textSize="20dp"></TextView>
+                android:textSize="18dp"></TextView>
 
             <LinearLayout
                 android:id="@+id/linearParti"
                 android:layout_width="match_parent"
-                android:layout_height="15dp"
+                android:layout_height="10dp"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/title_bar"
                 android:orientation="horizontal"></LinearLayout>
@@ -140,7 +140,7 @@
         android:id="@+id/commentEnter"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="170dp"
         android:background="@drawable/comment_section"
         android:elevation="200dp"
         android:padding="10dp"
@@ -163,7 +163,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="270dp"
         android:layout_marginRight="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
